@@ -1,0 +1,2 @@
+Task 7. Given the samples on task 6 have been successfully processed, define the necessary steps to generate a final joint vcf for these three samples.
+Provide the pipeline you would use to run these samples with as much detail as possible, including necessary reference files. No need to actually generate the final files for this task.

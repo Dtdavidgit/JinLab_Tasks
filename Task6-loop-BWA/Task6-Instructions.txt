@@ -1,0 +1,8 @@
+Task 6. The fastq files from chr22 for three samples that have been processed for Whole Exome Sequencing are provided.
+Write a bash script that performs alignment of theses samples to the Human Genome Reference GRCh37 using a for loop.
+Also provide instructions on how to run it. 
+
+## Note: the following read group information, provided in the rgfile, has to be used.
+@RG\tID:C47BPACXX:8\tPL:illumina\tPU:HISEQ2000B:567:C47BPACXX:8\tLB:Sample1-test\tSM:Sample1\tDS:Sample1-A-test
+@RG\tID:C45C8ACXX:4\tPL:illumina\tPU:HISEQ2000B:568:C45C8ACXX:4\tLB:Sample2-test\tSM:Sample2\tDS:Sample2-B-test
+@RG\tID:C5YA7ACXX:4\tPL:illumina\tPU:HISEQ2000B:571:C5YA7ACXX:4\tLB:Sample3-test\tSM:Sample3\tDS:Sample3-C-test

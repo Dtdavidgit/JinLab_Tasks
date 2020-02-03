@@ -1,0 +1,23 @@
+# Task 1 bedtools
+  RUN cd /opt && \
+       wget --no-check-certificate https://github.com/arq5x/bedtools2/releases/download/v2.27.1/bedtools-2.27.1.tar.gz && \
+       tar -xf bedtools-2.27.1.tar.gz && rm bedtools-2.27.1.tar.gz && cd bedtools2 && \
+       make && make install && make clean
+
+Add above command into DockerFile (beneath Pipeline component)
+
+execute the following command
+
+docker build -t" ImageName" . --no-cache
+
+and then docker run -it --name TestDocker "Images Name" get into interactive container
+
+bedtools | head -4 and it will show the following message
+
+bedtools is a powerful toolset for genome arithmetic.
+
+Version:   v2.27.1
+About:     developed in the quinlanlab.org and by many contributors worldwide.
+
+
+

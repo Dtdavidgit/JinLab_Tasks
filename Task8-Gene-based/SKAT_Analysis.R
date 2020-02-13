@@ -6,7 +6,7 @@ basename = strsplit(basename(args), "\\.")[[1]][1]
 # read phenotype file
 dat <- read.table(args[1], header=TRUE, stringsAsFactors=FALSE) 
 phen = ifelse(dat$PHENOTYPE == 2, 0, 1) 
-# read genotype file
+# read genotype file column 7 - 9
 geno = as.matrix(dat[,-c(1:6)])
 # perform SKAT emmax model
 obj <- SKAT_NULL_emmaX(phen~1, out_type="D")

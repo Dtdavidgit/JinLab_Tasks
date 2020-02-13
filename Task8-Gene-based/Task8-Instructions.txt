@@ -1,0 +1,4 @@
+Task8. Provided the following files: Dataset.fam, Dataset.covars, Dataset.kinship, gene.raw, gene.gene
+# write an R script that will run a gene-based analysis using the SKAT-emmaX. 
+# Use the covariates provided in the covariates file, along with sex.
+# The script should accept variables given through the command line and output a file/table with gene name and pvalue
